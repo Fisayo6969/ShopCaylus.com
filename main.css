@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: url(https://fonts.gstatic.com/s/archivo/v16/k3kPo8UDI-1M0wlSV9XAw6lQkqWY8Q82sLySOxK-vA.woff2) format('woff2'); ;
+    unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+header li a{
+    list-style-type: none;
+    display: flex;
+    font-family: "Manjari", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #000;
+    text-decoration: none;
+}
+header img{
+    max-width:110px;
+    width: 100%;
+} 
+.menu{
+    gap: 30px;
+}
+.right{
+    gap: 19px;
+}
+.navbar{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 29px;
+    margin-top: 1em;
+}
+.nav-link{
+   transition: 0.7s ease; 
+}
+.nav-link:hover{
+    color: #555555;
+    text-decoration: transparent underline;
+}
+.nav-menu {
+    margin-top: 1em;
+}
+svg:hover{
+    background-color: rgb(124, 124, 124);
+    border-radius: 0.4em;
+}
+.dd{
+    display: none;
+}
+@media(max-width:660px){
+.dd {
+    font-family: "Manjari", sans-serif;
+   position: relative;
+   display: inline-block;
+}
+.dd-btn{
+   padding: 15px;
+   text-align: center;
+   width: auto;
+   color: #000000;
+}
+.dd-btn:hover{
+    transition: 0.7s ease;
+}
+.dd-content {
+   width: 95%;
+   box-shadow: 0 10px 3px rgba(0, 0, 0, 0.3), 0 14px 11px rgba(0, 0, 0, 0);
+   height: 1px;
+   transition: height 1s;
+   overflow: hidden;
+}
+.dd:hover .dd-content {
+   height: 160px;
+}
+.dd-content > a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    font-family: "Manjari", sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    color: #000;
+}
+.dd-content > a:hover{
+    color: #4d4d4d;
+    text-decoration:double underline;
+}
+    .nav-menu >.nav-item{
+        display: none;
+    }
+}
+/*  */
