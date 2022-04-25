@@ -297,5 +297,24 @@ svg:hover{
 }
 /*  */
 #mailing-list-img{
-    
+    background-image: url(./Images/Infinite_Mailing\ List_Banner\(Desktop\)_1623898911008.jpg);
+    /* max-width: 9060px; */
+    width: 100%;
+    height: 72vh;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+}
+@media(max-width:1120px){
+    #mailing-list-img{
+        background-image: url(./Images/Infinite_Mailing\ List_Banner\(Mobile\)_1623898914758.jpg);
+        /* max-width: 9060px; */
+        width: 100%;
+        height: 72vh;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        margin-bottom: 3em;
+    }
 }
