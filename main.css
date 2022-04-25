@@ -300,21 +300,113 @@ svg:hover{
     background-image: url(./Images/Infinite_Mailing\ List_Banner\(Desktop\)_1623898911008.jpg);
     /* max-width: 9060px; */
     width: 100%;
-    height: 72vh;
+    height: 50vh;
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
-    margin-bottom: 3em;
 }
 @media(max-width:1120px){
     #mailing-list-img{
-        background-image: url(./Images/Infinite_Mailing\ List_Banner\(Mobile\)_1623898914758.jpg);
-        /* max-width: 9060px; */
+        background-image: url(./Images/Infinite_Mailing\ List_Banner\(Desktop\)_1623898911008.jpg);
         width: 100%;
         height: 72vh;
         background-position: center;
         background-size: contain;
         background-repeat: no-repeat;
-        margin-bottom: 3em;
+    }
+}
+@media(max-width:595px){
+    #mailing-list-img{
+        background-image: url(./Images/Infinite_Mailing\ List_Banner\(Mobile\)_1623898914758.jpg);
+        width: 100%;
+        height: 72vh;
+        background-position: center;
+        background-size: contain;
+        background-repeat: no-repeat;
+    }
+}
+/*  */
+footer ul{
+    display: flex;
+    list-style: none;
+    margin-left: 2em;
+    gap: 10px;
+}
+#second-list-item{
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    font-family: "Manjari", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: #000;
+    text-decoration: none;
+    gap: 20px;
+}
+#second-list-item:hover{
+    color: #555555;
+    text-decoration: transparent underline;
+}
+footer h4{
+    margin-top: 0.9em;
+    text-align: center;
+    justify-content: center;
+    font-family: "Manjari", sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: #000;
+}
+ a.Instagram svg {
+    fill: #E4405F;
+    float: right;
+}
+ a.Instagram svg:hover{
+    fill: #d15b71;
+    transform: scale(115%);
+    transition: 0.7s ease; 
+}
+@media(max-width:880px){
+    footer ul{
+        display: block;
+        list-style: none;
+        margin-left: 2em;
+        text-align: center;
+    }
+    #second-list-item{
+        cursor: pointer;
+        text-align: center;
+        justify-content: center;
+        font-family: "Manjari", sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        color: #000;
+        text-decoration: none;
+        gap: 20px;
+        display: flex;
+    }
+    #second-list-item:hover{
+        color: #555555;
+        text-decoration: transparent underline;
+    }
+    footer h4{
+        margin-top: 0.9em;
+        text-align: center;
+        justify-content: center;
+        font-family: "Manjari", sans-serif;
+        font-weight: 600;
+        letter-spacing: 0.06em;
+        color: #000;
+    }
+     a.Instagram svg {
+        display: none;
+        fill: #E4405F;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+     a.Instagram svg:hover{
+        fill: #d15b71;
+        transform: scale(115%);
+        transition: 0.7s ease; 
     }
 }
